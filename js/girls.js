@@ -47,4 +47,11 @@ $(document).ready(function () {
         $("#shirt").hide();
         $("#shoes").show();
     });
+
+    //hover over image to get information
+    $('#dress1').hover( function() {
+        $(this).find('#add').fadeIn(300);
+    }, function() {
+        $(this).find('#add').fadeOut(100);
+    });
 })
