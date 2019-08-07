@@ -44,6 +44,12 @@ body{
    background-color: pink;
     margin-bottom: 2%;
 }
+.card{
+    width: 56%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 3%;
+}
 #paragraph{
     text-align: center;
 }
@@ -66,5 +72,17 @@ body{
     display: none;
 }
 #image1{
+    display: none;
+}
+#image2{
+    display: none;
+}
+#image3{
+    display: none;
+}
+#image4{
+    display: none;
+}
+#image5{
     display: none;
 }

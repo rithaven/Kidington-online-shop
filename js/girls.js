@@ -56,6 +56,7 @@ $(document).ready(function () {
     // });
 
      //Add to cart
+     //dress sections
      $("#dress1").click(function () {
         $("#showCart").show();
         $("#image1").show();
@@ -63,7 +64,32 @@ $(document).ready(function () {
     });
 
     $("#back").click(function () {
-        $("#items").hide();
-        $("#background").show();
+        location.reload();
+        // $("#items").hide();
+        // $("#background").show();
+    });
+
+    $("#dress2").click(function () {
+        $("#showCart").show();
+        $("#image2").show();
+        $("#dresses").hide();
+    });
+
+    $("#dress3").click(function () {
+        $("#showCart").show();
+        $("#image3").show();
+        $("#dresses").hide();
+    });
+
+    $("#dress4").click(function () {
+        $("#showCart").show();
+        $("#image4").show();
+        $("#dresses").hide();
+    });
+
+    $("#dress5").click(function () {
+        $("#showCart").show();
+        $("#image5").show();
+        $("#dresses").hide();
     });
 })
