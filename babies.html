@@ -17,7 +17,7 @@
     <link href="css/styles_babies.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
         crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts_babies.js"></script>
 </head>
 
 <body>
@@ -40,21 +40,34 @@
             </li>
         </ul>
     </div>
-    <section class="products">
-        <div class="dropdown">
-            <h1 class="baby">Babies' clothes</h1>
-            <a class="btn btn-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown">Products</a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#dresses">Dresses & Overalls</a>
-                <a class="dropdown-item" href="#pants">Pants & Shorts</a>
-                <a class="dropdown-item" href="#shirt">Shirts & Bibs</a>
-                <a class="dropdown-item" href="#sweats">Sweats&Jackets</a>
-                <a class="dropdown-item" href="#shoes">Shoes & Socks</a>
-                <a class="dropdown-item" href="#cardles">Cardles</a>
-            </div>
+    <section class="sidebar">
+        <div>
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" id="dress" href="#dresses">Dresses & Overalls</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pant" href="#pants">Pants & Trousers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="shirt" href="#shirts">Shirts & T-shirts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="jacket" href="#sweats">Jackets & Sweaters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="shoe" href="#socks">Shoes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="cradle" href="#cradles">Cradles</a>
+                </li>
+            </ul>
         </div>
     </section>
-    <div class="container">
+    <section class="products">
+        <h1 class="baby">Babies' clothes</h1>
+    </section>
+    <div class="main">
         <section id="dresses">
             <div id="overalls">
                 <div class="row" style="margin-bottom:2%;">
@@ -166,7 +179,7 @@
             </div>
         </section>
         <section class="shirts">
-            <div id="shirt">
+            <div id="shirts">
                 <div class="row" style="margin-bottom:2%;">
                     <div class="col-md-3">
                         <img src="images/shirt.jpeg" width="300" height="200" class="img-fluid">
@@ -246,7 +259,7 @@
         </section>
 
         <section class="shoes">
-            <div id="shoes">
+            <div id="socks">
                 <div class="row" style="margin-bottom:2%;">
                     <div class="col-md-3">
                         <img src="images/sh.jpeg" width="200" height="200" class="img-fluid">
@@ -319,8 +332,8 @@
                 </div>
             </div>
         </section>
-        <section class="cardles">
-            <div id="cardles">
+        <section class="cradles">
+            <div id="cradles">
                 <div class="row" style="margin-bottom:2%;">
                     <div class="col-md-3">
                         <img src="images/berceau.jpeg" width="200" height="200" class="img-fluid">
@@ -364,38 +377,36 @@
                     </div>
                 </div>
                 <div class="row" style="margin-bottom:2%;">
-                        <div class="col-md-3">
-                            <img src="images/porte.jpeg" width="200" height="200" class="img-fluid">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="images/porte1.jpeg" width="200" height="180" class="img-fluid">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="images/porte2.jpeg" width="250" height="200" class="img-fluid">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="images/porte3.jpeg" width="250" height="200" class="img-fluid">
-                        </div>
+                    <div class="col-md-3">
+                        <img src="images/porte.jpeg" width="200" height="200" class="img-fluid">
                     </div>
-                    <div class="row" style="margin-bottom:2%;">
-                            <div class="col-md-3">
-                                <img src="images/porte4.jpeg" width="250" height="200" class="img-fluid">
-                            </div>
-                            <div class="col-md-3">
-                                <img src="images/porte5.jpeg" width="250" height="200" class="img-fluid">
-                            </div>
-                            <div class="col-md-3">
-                                <img src="images/porte6.jpeg" width="250" height="200" class="img-fluid">
-                            </div>
-                            <div class="col-md-3">
-                                <img src="images/porte7.jpeg" width="250" height="200" class="img-fluid">
-                            </div>
-                        </div>
+                    <div class="col-md-3">
+                        <img src="images/porte1.jpeg" width="200" height="180" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/porte2.jpeg" width="250" height="200" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/porte3.jpeg" width="250" height="200" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom:2%;">
+                    <div class="col-md-3">
+                        <img src="images/porte4.jpeg" width="250" height="200" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/porte5.jpeg" width="250" height="200" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/porte6.jpeg" width="250" height="200" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/porte7.jpeg" width="250" height="200" class="img-fluid">
+                    </div>
+                </div>
             </div>
         </section>
     </div>
-
-
 </body>
 
 </html>
