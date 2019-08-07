@@ -19,7 +19,7 @@ body{
 .products .nav{
     display: block;
     height: 100%; 
-    width: 310px;
+    width: 300px;
     position: fixed;
     left: 4;
     background-color: lightgoldenrodyellow; 
@@ -44,9 +44,8 @@ body{
    background-color: pink;
     margin-bottom: 2%;
 }
-.card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    /* background-color: gray; */
+#paragraph{
+    text-align: center;
 }
 #dresses{
     display: none;
@@ -63,6 +62,9 @@ body{
 #shoes{
     display: none;
 }
-#add{
+#showCart{
+    display: none;
+}
+#image1{
     display: none;
 }

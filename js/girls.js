@@ -49,9 +49,21 @@ $(document).ready(function () {
     });
 
     //hover over image to get information
-    $('#dress1').hover( function() {
-        $(this).find('#add').fadeIn(300);
-    }, function() {
-        $(this).find('#add').fadeOut(100);
+    // $('#dress1').hover( function() {
+    //     $(this).find('#add').fadeIn(300);
+    // }, function() {
+    //     $(this).find('#add').fadeOut(100);
+    // });
+
+     //Add to cart
+     $("#dress1").click(function () {
+        $("#showCart").show();
+        $("#image1").show();
+        $("#dresses").hide();
+    });
+
+    $("#back").click(function () {
+        $("#items").hide();
+        $("#background").show();
     });
 })
