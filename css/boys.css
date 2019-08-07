@@ -5,7 +5,27 @@ body{
   background-color: whitesmoke;
   font-weight: bold;
 }
-
+#t-hirts{
+  display: none;
+}
+#shirts{
+  display: none;
+}
+#shorts{
+  display: none;
+}
+#pants{
+  display: none;
+}
+#coats{
+  display: none;
+}
+#trends{
+  display: none;
+}
+#shoes{
+  display: none;
+}
 img{
     height: 200px;
     width: 200px;
