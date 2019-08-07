@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+.products{
+    background-image: url('file:///home/wecode/Documents/moringa-school-projects/Kidington-online-shop/images/baby3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    /* opacity: 0.60; */
+}
+.baby{
+    text-align: center;
+}
+img{
+    box-shadow: 0 4px 8px 0 rgb(250, 246, 246);
+}
