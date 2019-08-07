@@ -24,3 +24,6 @@ body{
 img{
     box-shadow: 0 4px 8px 0 rgb(250, 246, 246);
 }
+img:hover{
+    box-shadow: 5px 0 8px 0 rgb(202, 168, 168);
+}
