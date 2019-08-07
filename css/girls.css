@@ -1,0 +1,53 @@
+/* @media only screen and (max-width: 768px) {
+    .car-body{
+        width: 100%;
+    }
+  } */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+body{
+    
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+.girly{
+    text-align: center;
+    color: black;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.products .nav{
+    display: block;
+    height: 100%; 
+    width: 310px;
+    position: fixed;
+    left: 4;
+    background-color: lightgoldenrodyellow; 
+    padding-top: 20px;
+}
+.products .nav a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: burlywood;
+  display: block;
+}
+    
+.homeBack{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 27%;
+    opacity: .8;
+}
+.content{
+   background-color: pink;
+    margin-bottom: 2%;
+}
+/* #dresses{
+    display: none;
+} */
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* background-color: gray; */
+}
