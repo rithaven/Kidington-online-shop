@@ -1,6 +1,6 @@
-$(document).ready(function () {
+$(document).ready(function() {
     //click on T-shirts
-    $("#t-shirt").click(function () {
+    $("#t-shirt").click(function() {
         $("#background").hide();
         $("#pants").hide();
         $("#shorts").hide();
@@ -11,7 +11,7 @@ $(document).ready(function () {
         $("#t-hirts").show();
     });
     //click on Shirts
-    $("#shirt").click(function () {
+    $("#shirt").click(function() {
         $("#background").hide();
         $("#t-hirts").hide();
         $("#shorts").hide();
@@ -22,7 +22,7 @@ $(document).ready(function () {
         $("#shirts").show();
     });
     //click on Shorts
-    $("#short").click(function () {
+    $("#short").click(function() {
         $("#background").hide();
         $("#t-hirts").hide();
         $("#shirts").hide();
@@ -33,7 +33,7 @@ $(document).ready(function () {
         $("#shorts").show();
     });
     //click on Pants
-    $("#pant").click(function () {
+    $("#pant").click(function() {
         $("#background").hide();
         $("#t-hirts").hide();
         $("#shirts").hide();
@@ -44,7 +44,7 @@ $(document).ready(function () {
         $("#pants").show();
     });
     //click on Coats
-    $("#coat").click(function () {
+    $("#coat").click(function() {
         $("#background").hide();
         $("#t-hirts").hide();
         $("#shirts").hide();
@@ -55,7 +55,7 @@ $(document).ready(function () {
         $("#coats").show();
     });
     //click on Trends
-    $("#trend").click(function () {
+    $("#trend").click(function() {
         $("#background").hide();
         $("#t-hirts").hide();
         $("#shirts").hide();
@@ -66,7 +66,7 @@ $(document).ready(function () {
         $("#trends").show();
     });
     //click on Shoes
-    $("#shoe").click(function () {
+    $("#shoe").click(function() {
         $("#background").hide();
         $("#t-hirts").hide();
         $("#shirts").hide();
@@ -76,4 +76,35 @@ $(document).ready(function () {
         $("#coats").hide();
         $("#shoes").show();
     });
- })
+
+    //Add to cart
+    //dress sections
+    $("#img1").click(function () {
+       $("#showCart").show();
+       $("#image1").show();
+       $("#t-hirts").hide();
+   });
+   $("#back").click(function () {
+       location.reload();
+   });
+   $("#dress2").click(function () {
+       $("#showCart").show();
+       $("#image2").show();
+       $("#dresses").hide();
+   });
+   $("#dress3").click(function () {
+       $("#showCart").show();
+       $("#image3").show();
+       $("#dresses").hide();
+   });
+   $("#dress4").click(function () {
+       $("#showCart").show();
+       $("#image4").show();
+       $("#dresses").hide();
+   });
+   $("#dress5").click(function () {
+       $("#showCart").show();
+       $("#image5").show();
+       $("#dresses").hide();
+   });
+})
