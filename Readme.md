@@ -11,8 +11,8 @@ The applications is very responsive can be use from smartphone to big screen(400
 
 ## Setup/Installation Requirements
 
-- go on github
-- git clone
+* have account on github 
+* open the workspace using git command 
 - in a simple
 - easy-to-understand
 - format
