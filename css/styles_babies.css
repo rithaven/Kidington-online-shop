@@ -60,3 +60,6 @@ img{
 img:hover{
     box-shadow: 5px 0 8px 0 rgb(202, 168, 168);
 }
+#showCart{
+    display: none;
+}
