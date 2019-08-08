@@ -2,20 +2,78 @@
     background-image:url("../images/bac.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 15%;
-    padding-top: 40px;
+   height: 435px;
+   width: 1000px;
+    padding-top: 5px;
     padding-bottom:100px;
     opacity: .8;
     /* height: 800px; */
  }
  img{
-     width: 60%;
+     width: 600px;
+     height: 420px;
     margin-left: 20%;
+    margin-top: 2px;
  }
- #top{
+ /* .card{
+     width: 100px;
+ } */
+ #center{
+ 
+     padding-right: 20px;
+     margin-right: 0px;
+ }
+ /* #top{
      float: left;
  }
  .carousel-control-prev-icon{
      margin-left: 40%;
      width: 60%;
+ }
+ .carousel-control-prev{
+     margin-left: 5px;
+     margin-right: 5px;
+    
+ }
+.carousel-control-next{
+    margin-left: 5px;
+     margin-right: 5px;
+ }
+ 
+ header{
+     width:800px;
+     padding-right: 5px;
+     height: 200px;
+ } */
+ p,h5{
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+}
+.one{
+    width: 300px;
+}
+.two{
+    width: 200px;
+    height: 200px;
+    padding-right: 5px;
+}
+.sidebar{
+height: 75%; /* Full-height: remove this if you want "auto" height */
+   width:390px; /* Set the width of the sidebar */
+   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+   z-index: 1; /* Stay on top */
+   top: 30px; /* Stay at the top */
+   left: 0;
+   background-repeat: repeat;
+   overflow-x: hidden; /* Disable horizontal scroll */
+   padding-top: 20px;
+ }
+ #bottom{
+     float: bottom;
+     background-color: #D4E2D9;
+     /* color: white; */
+     width: 100%;
+     padding-bottom: 10%;
  }
