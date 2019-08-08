@@ -53,4 +53,32 @@ $(document).ready(function () {
         $("#socks").hide();
         $("#cradles").show();
     });
+    $("#dress0").click(function () {
+        $("#showCart").show();
+        $("#image0").show();
+        $("#dresses").hide();
+    });
+    $("#back").click(function () {
+        location.reload();
+    });
+    $("#dress1").click(function () {
+        $("#showCart").show();
+        $("#image1").show();
+        $("#dresses").hide();
+    });
+    $("#dress2").click(function () {
+        $("#showCart").show();
+        $("#image2").show();
+        $("#dresses").hide();
+    });
+    $("#dress4").click(function () {
+        $("#showCart").show();
+        $("#image4").show();
+        $("#dresses").hide();
+    });
+    $("#dress5").click(function () {
+        $("#showCart").show();
+        $("#image5").show();
+        $("#dresses").hide();
+    });
 });
