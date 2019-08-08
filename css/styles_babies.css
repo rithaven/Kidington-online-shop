@@ -3,10 +3,10 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 #navbar{
-    background-image: url('file:///home/wecode/Documents/moringa-school-projects/Kidington-online-shop/images/back.jpg');
+    /* background-image: url('file:///home/wecode/Documents/moringa-school-projects/Kidington-online-shop/images/back.jpg'); */
 }
 .products{
-    background-image: url('file:///home/wecode/Documents/moringa-school-projects/Kidington-online-shop/images/baby3.jpeg');
+    background-image: url('file:///home/wecode/Documents/moringa-school-projects/Kidington-online-shop/images/bebe.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -35,8 +35,9 @@ section.sidebar .nav {
     z-index: 1; /* Stay on top */
     top: 58px; /* Stay at the top */
     left: 0;
+    color: black;
     /* background-color: rgb(243, 166, 237); Black */
-    background-image: url('file:///home/wecode/Documents/moringa-school-projects/Kidington-online-shop/images/back1.jpeg');
+    background-image: url('file:///home/wecode/Documents/moringa-school-projects/Kidington-online-shop/images/bebe1.jpeg');
     background-repeat: repeat;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
@@ -46,7 +47,7 @@ section.sidebar .nav {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #faf6f6;
+    /* color: black; */
     display: block;
   }
   @media screen and (max-height: 450px) {
