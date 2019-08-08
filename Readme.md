@@ -1,6 +1,6 @@
 # KIDINGTON-ONLINE-SHOP
 
-#### {},August 8th,2019
+#### August 8th,2019
 
 #### By ** Agnes,Benedicte,Diane,Odette,Ritha**
 
@@ -25,5 +25,5 @@ The applications is very responsive can be use from smartphone to big screen(400
 * For more details, don't hesitate contact Mr.Ritha on (+250)-787412101 or email"veneruth4@gmail.com"
 ### License
 
-_{Determine the license under which this application can be used. See below for more details on licensing.}_
-Copyright (c) {2019} **Agnes,Benedicte,Diane,Odette,Ritha***
+* this project is under Moringa scholl ,license _
+Copyright (c) {moringa scholl,2019} **Agnes,Benedicte,Diane,Odette,Ritha***
