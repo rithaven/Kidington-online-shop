@@ -34,6 +34,9 @@ body{
   font-size: 20px;
   display: block;
 }
+a{
+    color: #000;
+}
     
 .content{
     
@@ -136,5 +139,8 @@ body{
     display: none;
 }
 #clothDetails{
+    display: none;
+}
+#details{
     display: none;
 }
