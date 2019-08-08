@@ -1,0 +1,140 @@
+@media only screen and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+    .products .nav a{
+        width: 50%;
+    }
+  }
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    
+}
+.girly{
+    text-align: center;
+    color: black;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.products .nav{
+    background-color: rgb(196, 192, 192);
+    display: block;
+    height: 100%; 
+    width: 300px;
+    position: fixed;
+    left: 4;
+    padding-top: 20px;
+}
+.products .nav a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+    
+.content{
+    
+    margin-bottom: 2%;
+}
+.card{
+    width: 56%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 3%;
+}
+#paragraph{
+    text-align: center;
+}
+#dresses{
+    display: none;
+}
+#pants{
+    display: none;
+}
+#shirt{
+    display: none;
+}
+#sweats{
+    display: none;
+}
+#shoes{
+    display: none;
+}
+#showCart{
+    display: none;
+}
+#image1{
+    display: none;
+}
+#image2{
+    display: none;
+}
+#image3{
+    display: none;
+}
+#image4{
+    display: none;
+}
+#image5{
+    display: none;
+}
+#image6{
+    display: none;
+}
+#image7{
+    display: none;
+}
+#image8{
+    display: none;
+}
+#image9{
+    display: none;
+}
+#image10{
+    display: none;
+}
+#image11{
+    display: none;
+}
+#image12{
+    display: none;
+}
+#image13{
+    display: none;
+}
+#image14{
+    display: none;
+}
+#image15{
+    display: none;
+}
+#image16{
+    display: none;
+}
+#image17{
+    display: none;
+}
+#image18{
+    display: none;
+}
+#image19{
+    display: none;
+}
+#image20{
+    display: none;
+}
+#image21{
+    display: none;
+}
+#image22{
+    display: none;
+}
+#image23{
+    display: none;
+}
+#clothDetails{
+    display: none;
+}
