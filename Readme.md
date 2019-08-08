@@ -16,6 +16,8 @@ The applications is very responsive can be use from smartphone to big screen(400
 * git clone https://github.com/rithaven/Kidington-online-shop
 * git code .
 * add the database for long use.
+## LIVE SITE:
+https://rithaven.github.io/Kidington-online-shop/
  
 
 ## Technologies Used
