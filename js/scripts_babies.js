@@ -56,7 +56,7 @@ $(document).ready(function () {
     $("#dress0").click(function () {
         $("#showCart").show();
         $("#image0").show();
-        $("#dresses").hide();
+        $("#overalls").hide();
     });
     $("#back").click(function () {
         location.reload();
