@@ -214,8 +214,8 @@ section.sidebar .nav a {
     text-align: center;
 }
 
-create table order(orderId INT AUTO_INCREMENT,
+/* create table order(orderId INT AUTO_INCREMENT,
 clothesname varchar(255),
 ageRange INT(28),
 quantity INT(20),
-PRIMARY KEY(orderId));
+PRIMARY KEY(orderId)); */
