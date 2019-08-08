@@ -1,62 +1,78 @@
-//ordering processes
-
-// var clothes = $("select#cloth").val();
-// var tailles = $("select#taille").val();
-// var quantities = $("select#quantity").val();
-// var clothCost = 0;
-var totalPrice = [];
-function OrderCloth(cloth) {
+var allCost = [];
+function OrderCloth(cloth,taille,quantity) {
     this.cloth = cloth;
-    this.quantity = [];
+    this.taille = taille;
+    this.quantity = quantity ;
     this.clothPrice = 0;
 }
 OrderCloth.prototype.clothCost = function () {
-    if (this.cloth === "one") {
+    if (this.cloth === "Ceremony Dress") {
         this.clothPrice += 30;
-    } else if (this.cloth === "two") {
+    } else if (this.cloth === "Casual Dress") {
         this.clothPrice += 20;
-    } else if (this.cloth === "three") {
+    } else if (this.cloth === "Wedding Dress") {
         this.clothPrice += 50;
-    } else if (this.cloth === "four") {
+    } else if (this.cloth === "Sun Dress") {
         this.clothPrice += 10;
-    } else if (this.cloth === "five") {
+    } else if (this.cloth === "Casual Skirt") {
         this.clothPrice += 20;
-    } else if (this.cloth === "six") {
+    } else if (this.cloth === "Ceremony Skirt") {
         this.clothPrice += 10;
-    } else if (this.cloth === "seven") {
+    } else if (this.cloth === "Casual Pants") {
         this.clothPrice += 20;
-    } else if (this.cloth === "eight") {
+    } else if (this.cloth === "Sports Pants") {
         this.clothPrice += 30;
-    } else if (this.cloth === "nine") {
+    } else if (this.cloth === "Jeans Pants") {
         this.clothPrice += 20;
-    } else if (this.cloth === "ten") {
+    } else if (this.cloth === "Casual Shorts") {
         this.clothPrice += 10;
-    } else if (this.cloth === "eleven") {
+    } else if (this.cloth === "Sports Shorts") {
         this.clothPrice += 20;
-    } else if (this.cloth === "twelve") {
+    } else if (this.cloth === "Jeans Shorts") {
         this.clothPrice += 10;
-    } else if (this.cloth === "twenty") {
+    } else if (this.cloth === "Singlet") {
         this.clothPrice += 5;
-    } else if (this.cloth === "thirty") {
+    } else if (this.cloth === "Blouse") {
         this.clothPrice += 10;
-    } else if (this.cloth === "fourty") {
+    } else if (this.cloth === "Cotton") {
         this.clothPrice += 10;
-    } else if (this.cloth === "fifty") {
+    } else if (this.cloth === "Jeans Jackets") {
         this.clothPrice += 30;
-    } else if (this.cloth === "sixty") {
+    } else if (this.cloth === "Rain Jacket") {
         this.clothPrice += 20;
-    } else if (this.cloth === "seventy") {
+    } else if (this.cloth === "Jumpers") {
         this.clothPrice += 20;
-    } else if (this.cloth === "eighty") {
+    } else if (this.cloth === "Sweats") {
         this.clothPrice += 10;
-    } else if (this.cloth === "ninety") {
+    } else if (this.cloth === "Wedding Shoes") {
         this.clothPrice += 40;
-    } else if (this.cloth === "hundred") {
+    } else if (this.cloth === "Casual Shoes") {
         this.clothPrice += 20;
-    } else if (this.cloth === "million") {
+    } else if (this.cloth === "Sports Shoes") {
         this.clothPrice += 30;
-    }
+    }else if (this.cloth === "Barllene") {
+        this.clothPrice += 30;
+    } if (this.taille === "4-5 years") {
+        this.clothPrice;
+    } else if (this.taille === "6-8 years") {
+        this.clothPrice;
+    } else if (this.taille === "9-10 years") {
+        this.clothPrice;
+    } else if (this.taille === "10-12 years") {
+        this.clothPrice;
 }
+return this.clothPrice;
+
+}
+
+OrderCloth.prototype.finalCost = function () {
+    var totalPrice = 0;
+    for (var i = 0; i < allCost.length; i ++) {
+      TotalPrice += allCost[i];
+    }
+    return totalPrice;
+   }
+
 $(document).ready(function () {
     //click on Dresses&Skirts link
     $(".nav-link#skirts").click(function () {
@@ -241,6 +257,26 @@ $(document).ready(function () {
         $("#showCart").show();
         $("#image23").show();
         $("#shoes").hide();
+    });
+
+     //ordering processes
+     $("#cart").click(function () {
+        var clothes = $("select#cloth").val();
+        var tailles = $("select#taille").val();
+        var quantities = parseInt($("input#quantity").val());
+        var clothesDetails = (clothes);
+        var tailleDetails = (tailles);
+
+        var price = new OrderCloth(clothes,tailles,quantities);
+        price.clothCost();
+        var cost = price.quantity*price.clothPrice;
+        $("#clothDetails").show();
+        $("#totalPrice").text(cost);
+        $("#clothesDetails").text(price.clothPrice);
+        $("#quantityDetails").text(price.quantity);
+        $("#brand").append("<p>" + "Brand: " + clothesDetails + "</p>");
+        $("#tailleDetails").append("<p>"+ "Range" + ":" + " " + tailleDetails + "</p>");
+        $("#clothes, #tailles, #quantities").val(" ");
     });
 
 })

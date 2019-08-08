@@ -311,44 +311,51 @@
 
             <div class="col-md-6" id="showCart">
                 <div class="ages">
-                    <p>Price: $ 20</p>
+                    <p>Tatal Price: $<span id="totalPrice"></span> </p>
                     <select required class="form-control" id="cloth" style="width: 33%;">
                         <option></option>
-                        <option value="one">Ceremony Dress</option>
-                        <option value="two">Casual Dress</option>
-                        <option value="three">Wedding Dress</option>
-                        <option value="four">Sun Dress</option>
-                        <option value="five">Casual Skirt</option>
-                        <option value="six">Ceremony Skirt</option>
-                        <option value="seven">Casual Pants</option>
-                        <option value="eight">Sports Pants</option>
-                        <option value="nine">Jeans Pants</option>
-                        <option value="ten">Casual Shorts</option>
-                        <option value="eleven">Sports Shorts</option>
-                        <option value="twelve">Jeans Shorts</option>
-                        <option value="twenty">Singlet</option>
-                        <option value="thirty">Blouse</option>
-                        <option value="fourty">Cotton</option>
-                        <option value="fifty">Jeans Jackets</option>
-                        <option value="sixty">Rain Jackets</option>
-                        <option value="seventy">Jumpers</option>
-                        <option value="eighty">Sweats</option>
-                        <option value="ninety">Wedding Shoes</option>
-                        <option value="hundred">Casual Shoes</option>
-                        <option value="million">Sports Shoes</option>
+                        <option value="Ceremony Dress">Ceremony Dress</option>
+                        <option value="Casual Dress">Casual Dress</option>
+                        <option value="Wedding Dress">Wedding Dress</option>
+                        <option value="Sun Dress">Sun Dress</option>
+                        <option value="Casual Skirt">Casual Skirt</option>
+                        <option value="Ceremony Skirt">Ceremony Skirt</option>
+                        <option value="Casual Pants">Casual Pants</option>
+                        <option value="Sports Pants">Sports Pants</option>
+                        <option value="Jeans Pants">Jeans Pants</option>
+                        <option value="Casual Shorts">Casual Shorts</option>
+                        <option value="Sports Shorts">Sports Shorts</option>
+                        <option value="Jeans Shorts">Jeans Shorts</option>
+                        <option value="Singlet">Singlet</option>
+                        <option value="Blouse">Blouse</option>
+                        <option value="Cotton">Cotton</option>
+                        <option value="Jeans Jackets">Jeans Jackets</option>
+                        <option value="Rain Jackets">Rain Jackets</option>
+                        <option value="Jumpers">Jumpers</option>
+                        <option value="Sweats">Sweats</option>
+                        <option value="Wedding Shoes">Wedding Shoes</option>
+                        <option value="Casual Shoes">Casual Shoes</option>
+                        <option value="Sports Shoes">Sports Shoes</option>
+                        <option value="Barllene">Barllene</option>
                     </select><br>
                     <select required class="form-control" id="taille" style="width: 33%;">
                         <option></option>
-                        <option value="taille1">4-5 years</option>
-                        <option value="taille2">6-8 years</option>
-                        <option value="taille3">9-10 years</option>
-                        <option value="taille4">10-12 years</option>
+                        <option value="4-5 years">4-5 years</option>
+                        <option value="6-8 years">6-8 years</option>
+                        <option value="9-10 years">9-10 years</option>
+                        <option value="10-12 years">10-12 years</option>
                     </select>
                 </div>
                 <div id="add" style="margin-top: 2%">
                     <input type="number" min="1" id="quantity"><br>
-                    <button type="submit" id="cart" style="margin-top: 2%;">ADD TO CART</button>
-                    <button type="submit" id="back" style="margin-right: 5%;">BACK</button>
+                    <button type="submit" id="cart" style="margin-top: 2%;">Place order</button>
+                    <button type="submit" id="back" style="margin-right: 2%;">BACK</button>
+                    <button type="submit" id="back" style="margin-right: 1%;">Add order</button>
+                    <p><a id="clothDetails">View Order Details</a></p>
+                    <p><span id="brand"></span> </p>
+                    <p>Price: $<span id="clothesDetails"></span> </p>
+                    <p><span id="tailleDetails"></span> </p>
+                    <p>Quantity: <span id="quantityDetails"></span> </p>
                 </div>
             </div>
         </div>
