@@ -65,13 +65,13 @@ return this.clothPrice;
 
 }
 
-OrderCloth.prototype.finalCost = function () {
-    var totalPrice = 0;
-    for (var i = 0; i < allCost.length; i ++) {
-      TotalPrice += allCost[i];
-    }
-    return totalPrice;
-   }
+// OrderCloth.prototype.finalCost = function () {
+//     var totalPrice = 0;
+//     for (var i = 0; i < allCost.length; i ++) {
+//       TotalPrice += allCost[i];
+//     }
+//     return totalPrice;
+//    }
 
 $(document).ready(function () {
     //click on Dresses&Skirts link
@@ -209,7 +209,7 @@ $(document).ready(function () {
         $("#image14").show();
         $("#shirt").hide();
     });
-    $("#blouse3").click(function () {
+    $("#blouse3").click(function(){
         $("#showCart").show();
         $("#image15").show();
         $("#shirt").hide();
@@ -260,7 +260,9 @@ $(document).ready(function () {
     });
 
      //ordering processes
-     $("#cart").click(function () {
+     $("#cart").click(function (ent) {
+         event.preventDefault();
+        $("#clothDetails").show();
         var clothes = $("select#cloth").val();
         var tailles = $("select#taille").val();
         var quantities = parseInt($("input#quantity").val());

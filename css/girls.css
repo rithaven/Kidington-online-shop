@@ -10,7 +10,7 @@
 body{
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
-    background-color: lightgoldenrodyellow;
+    
 }
 .girly{
     text-align: center;
@@ -20,6 +20,7 @@ body{
 }
 
 .products .nav{
+    background-color: rgb(196, 192, 192);
     display: block;
     height: 100%; 
     width: 300px;
@@ -34,14 +35,8 @@ body{
   display: block;
 }
     
-.homeBack{
-    background-image: url("../images/mine.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 27%;
-    opacity: .8;
-}
 .content{
+    
     margin-bottom: 2%;
 }
 .card{
@@ -138,5 +133,8 @@ body{
     display: none;
 }
 #image23{
+    display: none;
+}
+#clothDetails{
     display: none;
 }
