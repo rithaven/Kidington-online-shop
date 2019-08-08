@@ -260,7 +260,7 @@ $(document).ready(function () {
     });
 
      //ordering processes
-     $("#cart").click(function (ent) {
+     $("#cart").click(function (event) {
          event.preventDefault();
         $("#clothDetails").show();
         var clothes = $("select#cloth").val();
@@ -279,6 +279,10 @@ $(document).ready(function () {
         $("#brand").append("<p>" + "Brand: " + clothesDetails + "</p>");
         $("#tailleDetails").append("<p>"+ "Range" + ":" + " " + tailleDetails + "</p>");
         $("#clothes, #tailles, #quantities").val(" ");
+    });
+
+    $("#clothDetails").click(function () {
+        $("#details").show();
     });
 
 })
