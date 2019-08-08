@@ -2,24 +2,21 @@
 body{
     font-family: 'PT Sans', sans-serif;
 }
-/* #navbar{ */
-    /* background-image: url('file:///home/wecode/Documents/moringa-school-projects/Kidington-online-shop/images/back.jpg'); */
-/* } */
+
 .products{
-    background-image: url('file:///home/wecode/Documents/moringa-school-projects/Kidington-online-shop/images/bebebac1.jpg');
+    background-image: url('file:///home/wecode/Documents/moringa-school-projects/Kidington-online-shop/images/babyboy.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
     margin-bottom: 4%;
     margin-top: 1%;
-    /* opacity: 0.60; */
+    
 }
 .baby{
     text-align: center;
 }
 .nav{
-    /* float: right; */
-    /* position: fixed; */
+    
     font-size: 20px;
     
 }
