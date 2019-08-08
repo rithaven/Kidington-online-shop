@@ -4,7 +4,7 @@ body{
 }
 
 .products{
-    background-image: url('file:///home/wecode/Documents/moringa-school-projects/Kidington-online-shop/images/babyboy.jpg');
+    background-image: url('../images/babyboy.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -34,7 +34,7 @@ section.sidebar .nav {
     left: 0;
     color: black;
     /* background-color: rgb(243, 166, 237); Black */
-    background-image: url('file:///home/wecode/Documents/moringa-school-projects/Kidington-online-shop/images/bebebac2.jpg');
+    background-image: url('../images/bebebac2.jpeg');
     background-repeat: repeat;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
