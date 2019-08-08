@@ -1,3 +1,5 @@
+
+
 $(document).ready(function () {
     //click on Dresses&Skirts link
     $(".nav-link#skirts").click(function () {
@@ -48,13 +50,6 @@ $(document).ready(function () {
         $("#shoes").show();
     });
 
-    //hover over image to get information
-    // $('#dress1').hover( function() {
-    //     $(this).find('#add').fadeIn(300);
-    // }, function() {
-    //     $(this).find('#add').fadeOut(100);
-    // });
-
      //Add to cart
      //dress sections
      $("#dress1").click(function () {
@@ -65,8 +60,6 @@ $(document).ready(function () {
 
     $("#back").click(function () {
         location.reload();
-        // $("#items").hide();
-        // $("#background").show();
     });
 
     $("#dress2").click(function () {
