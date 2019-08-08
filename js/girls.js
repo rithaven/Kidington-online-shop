@@ -51,7 +51,7 @@ OrderCloth.prototype.clothCost = function () {
     } else if (this.cloth === "Sports Shoes") {
         this.clothPrice += 30;
     }else if (this.cloth === "Barllene") {
-        this.clothPrice += 30;
+        this.clothPrice += 20;
     } if (this.taille === "4-5 years") {
         this.clothPrice;
     } else if (this.taille === "6-8 years") {
