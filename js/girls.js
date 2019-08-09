@@ -129,6 +129,7 @@ $(document).ready(function () {
         $("#showCart").show();
         $("#image1").show();
         $("#dresses").hide();
+        $("#pro").hide();
     });
 
     $("#back").click(function () {
